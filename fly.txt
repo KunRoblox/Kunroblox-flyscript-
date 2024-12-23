@@ -102,8 +102,7 @@ local function NQWSTGE_fake_script() -- Frame.Fly
                                 speed = 50
         else 
         flying = true 
-        Fly()
-
+        Fly() 
         end 
         elseif key:lower() == "w" then 
         ctrl.f = 1 
